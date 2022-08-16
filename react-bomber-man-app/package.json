@@ -1,0 +1,37 @@
+{
+  "scripts": {
+    "dev": "react-scripts start",
+    "build": "react-scripts build",
+    "serve": "serve -s build -p 4400",
+    "format": "prettier --write \"{,!(node_modules|dist|build)/**/}*.*\"",
+    "lint": "stylelint --fix \"{,!(node_modules|dist|build)/**/}*.css*\" \"{,!(node_modules|dist|build)/**/}*.scss*\""
+  },
+  "dependencies": {
+    "prettier": "^2.4.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "react-transition-group": "^4.4.2",
+    "stylelint": "^13.13.1",
+    "stylelint-config-prettier": "^9.0.2",
+    "stylelint-config-recommended-scss": "^4.3.0",
+    "stylelint-order": "^4.1.0",
+    "stylelint-scss": "^3.21.0",
+    "vite": "^2.3.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "serve": "^13.0.2"
+  }
+}

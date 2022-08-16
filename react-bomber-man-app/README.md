@@ -1,0 +1,5 @@
+- Tips
+  - build すると最適化の影響でコンストラクタ名変わるので、dev 環境では動くが、prod では動かないみたいな事象が発生する
+  - https://dev.to/gaurangdhorda/constructor-name-is-not-working-in-production-3ik4
+  - https://stackoverflow.com/questions/3710275/does-javascript-have-the-interface-type-such-as-javas-interface
+  - instanceof で比較だとむずかしいので、シリアライズメソッドを Bot と Player の両方に入れて区別できるようにする
